@@ -1,5 +1,5 @@
 def hello_t(name)
-  name.each do {(name) puts name}
+  name.each do {|name| puts name}
  yield 
   "Hey! No block was given"
   end
