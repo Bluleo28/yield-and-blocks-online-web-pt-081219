@@ -1,6 +1,7 @@
 def hello_t
   name.each do |name| 
-    puts name.upcase
+    puts #{name}
+  end
 end
 
 # call your method here!
