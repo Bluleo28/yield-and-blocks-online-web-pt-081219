@@ -1,6 +1,5 @@
 def hello_t
-  name.each do |name|
-  puts #{name}
+  name.each do {|name| puts #name}
   end
 end
 
