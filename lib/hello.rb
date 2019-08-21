@@ -1,5 +1,6 @@
 def hello_t
-  name.each do {|name| puts names.upcase} 
+  name.each do |name|
+  puts #{names}
   end
   
   
